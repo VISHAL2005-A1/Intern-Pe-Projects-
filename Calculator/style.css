@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+
+.container {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+
+
+}
+
+input {
+
+    border: none;
+    font-weight: 600;
+    font-size: 60px;
+    text-align: end;
+    background-color: rgba(143, 143, 143, 0.442);
+    color: white;
+
+}
+
+.box {
+    height: 204px;
+    position: relative;
+    width: 288px;
+    border-radius: 15px;
+
+
+}
+
+.button {
+
+    width: 289px;
+    background-color: #2b3072;
+    border-radius: 25px;
+    border: 10px solid rgb(0, 0, 0);
+
+
+
+}
+
+button {
+    margin: 9px;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+
+    border-radius: 50px;
+
+    cursor: pointer;
+
+    font-weight: 750;
+}
+
+.btn1 :nth-child(1) {
+    background-color: rgba(255, 74, 243, 0.548);
+
+}
+
+.btn1 :nth-child(2) {
+    background-color: rgb(189, 191, 245);
+}
+
+.btn1 :nth-child(3) {
+    background-color: rgb(189, 191, 245);
+}
+
+.same-color {
+    background-color: rgba(0, 30, 255, 0.149);
+    color: white;
+}
