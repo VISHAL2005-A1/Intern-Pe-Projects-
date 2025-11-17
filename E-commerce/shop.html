@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlickFit - Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">FlickFit</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="shop.html" class="active">Shop</a></li>
+    <li><a href="product.html">Products</a></li>
+    <li><a href="#">Pages</a></li>
+  </ul>
+
+  <div class="icons">
+    <span>👤</span>
+    <span>🛒</span>
+  </div>
+</nav>
+
+<div class="shop-container">
+
+  <!-- FILTERS -->
+  <aside class="filters">
+    <h3>Filters</h3>
+    <h4>Size</h4>
+    <div class="size-buttons">
+      <button>S</button><button>M</button><button>L</button><button>XL</button>
+    </div>
+
+    <h4>Prices</h4>
+    <ul>
+      <li>$0–$50</li>
+      <li>$50–$100</li>
+      <li>$100–$150</li>
+    </ul>
+
+    <h4>Brands</h4>
+    <ul>
+      <li>Abby</li>
+      <li>Brook</li>
+      <li>Learts</li>
+    </ul>
+  </aside>
+
+  <!-- PRODUCT GRID -->
+  <div class="product-grid">
+
+    <div class="product-card"  onclick="openProduct('Red Bag', 1200, 'm-1.jpg')">
+        <h3>Red Bag</h3>
+        <p class="price">$12</p>
+      <img style="height: 350px; " src="m-1.jpg">
+    </div>
+
+    <div class="product-card" onclick="openProduct('Black Dress', 850, 'm-2.webp')">
+        <h3>Black Dress</h3>
+        <p class="price">$10</p>
+        <img style="height: 350px;" src="m-2.webp">
+    </div>
+
+    <div class="product-card" onclick="openProduct('Navy Coat', 1600, 'm-6.avif')">
+        <h3>Navy Coat</h3>
+        <p class="price">$12</p>
+        <img style="height: 350px;" src="m-6.avif">
+    </div>
+
+    <div class="product-card" onclick="openProduct('Jacket',23,'m-9.jpg')">
+        <h3>Jacket</h3>
+        <p class="price">$23</p>
+        <img style="height: 350px;" src="m-9.jpg">
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
