@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlickFit - Navy Coat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">FlickFit</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="shop.html">Shop</a></li>
+    <li><a href="product.html" class="active">Products</a></li>
+    <li><a href="#">Pages</a></li>
+  </ul>
+
+  <div class="icons">
+    <span>👤</span>
+    <span>🛒</span>
+  </div>
+</nav>
+
+<!-- PRODUCT CONTAINER -->
+<div class="product-container">
+
+  <img class="product-image" id="product-image" src="images/navy-coat.jpg">
+
+  <div class="product-info">
+    <h1 id="product-name">Navy Coat</h1>
+
+    <h2 id="product-price">$12 <span class="discount">save 33%</span></h2>
+
+    <p class="stars">★★★★★</p>
+
+    <!-- TIMER -->
+    <div class="timer">
+      Hurry up! Sale ends in:
+      <span id="countdown">00:00:00</span>
+    </div>
+
+    <h3>Size:</h3>
+    <div class="sizes">
+      <button>S</button>
+      <button class="active">M</button>
+      <button>L</button>
+      <button>XL</button>
+    </div>
+
+    <h3>Colors</h3>
+    <div class="colors">
+      <span class="circle red"></span>
+      <span class="circle orange"></span>
+      <span class="circle yellow"></span>
+      <span class="circle blue"></span>
+    </div>
+
+    <h3>Quantity</h3>
+    <div class="quantity-box">
+      <button class="minus">-</button>
+      <span id="qty">1</span>
+      <button class="plus">+</button>
+    </div>
+
+    <button class="add-cart">Add to cart</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
